@@ -16,7 +16,7 @@ variable "ikswsname" {
 resource helm_release helloiksfrtfcb {
   name       = "helloiksapp"
   namespace = "default"
-  chart = "https://prathjan.github.io/helm-chart/helloiks-0.1.0.tgz"
+  chart = "http://100.64.0.15/helloiks-0.1.0.tgz"
 
   set {
     name  = "MESSAGE"
